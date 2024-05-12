@@ -5,7 +5,7 @@ interface CategoryItemProps {
     category: Category
 }
 
-const CategoryItem = async ({category}: CategoryItemProps) => {
+const CategoryItem = ({category}: CategoryItemProps) => {
 
     return (
         <div className="flex items-center gap-3 py-3 px-4 bg-white shadow-md rounded-full">
